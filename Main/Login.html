@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../Scripts/fonts.js"></script>
+    <link rel="stylesheet" href="../Styles/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <img src="../Assets/glacier-bank-logo.svg" alt="logo">
+        <div>
+            <ul id="topUl">
+                <li>LOCATIONS</li>
+                <li>EDUCATION</li>
+                <li>CONTACT</li>
+                <li>ABOUT</li>
+                <li>COMMUNITY</li>
+            </ul>
+            <div>
+                <ul id="bottomUl">
+                    <li>Personal</li>
+                    <li>Business</li>
+                    <li>Online Banking</li>
+                    <li>
+                        <i id="icons" class="fas fa-lock"></i>
+                        <a id="lg">Login</a>
+                    </li>
+                    <li>
+                        <i id="icons" class="fas fa-search"></i>
+                        <a>Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <form id="frm" action="../Scripts/Login.php" method="post">
+            <div>
+                <h1>Online Banking Access</h1>
+            </div>
+            <div>
+                <input type="text" name="1"     placeholder="Username">
+                <input type="password" name="2" placeholder="Password">
+                <button type="submit">Login</button>
+                <span>
+                    <a href="#">Enroll</a>
+                    <a href="#">Online Construction</a>
+                </span>
+            </div>
+        </form>
+    </nav>
+    <div class="green">
+        <div><b>Holiday Closure</b> - Our offices will be closed Thursday, November 25th for Thanksgiving.</div>
+        <div><b>Branch Access Update</b> - Our Lakeside Lobby will be closed the week of November 22nd. </div>
+    </div>
+    <section id="sec">
+        <button id="lrn">Learn more</button>
+    </section>
+</body>
+</html>

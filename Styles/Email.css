@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+body{
+    margin: 50px 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form h1{
+    font-size: 25px;
+    width: 350px;
+    text-align: center;
+}
+form input{
+    padding-left: 10px;
+    width: 300px;
+    height: 35px;
+    margin: 2px;
+    border-radius: 5px;
+    border: 1px rgb(190, 187, 187) solid;
+}
+form button{
+    width: 307px;
+    font-size: 18px;
+    height: 40px;
+    color: white;
+    background-color: #065b83;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+#lliinnee{
+    background-color: rgb(141, 141, 141);
+    width: 430px;
+    height: 1px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+form div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+form div input{
+    outline: none;
+    width: 300px;
+    height: 35px;
+    border:  2px solid rgba(161, 161, 161, 0.397);
+    border-bottom: 1px solid black;
+}
+form div label{
+    text-align: left;
+    padding-bottom: 5px;
+    margin-right:80px;
+    color: #747676;
+    font-size: 14px;
+}
+form div input:focus{
+    border: 1px solid black;
+    
+}
+#image{
+    background-color: yellow;
+    opacity: 0;position: absolute;
+}

@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    padding-bottom: 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 120px;
+}
+nav img{
+    width: 280px;
+}
+#topUl li{
+    margin: 0 20px 0 20px;
+}
+#bottomUl li{
+    margin: 0 25px 0 25px;
+}
+#topUl{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    color: rgb(158, 159, 160);
+    font-weight: 10;
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(201, 199, 199) solid;
+    cursor: pointer;
+}
+#bottomUl{
+    display: flex;
+    cursor: pointer;
+    list-style: none;
+    color: rgba(27, 26, 26, 0.733);
+    font-weight: 10;
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+} 
+#lg{
+    color: #0a90ce;
+}
+#icons{
+    margin-right: 5px;
+    color: #0a90ce;
+}
+.green{
+    background-color: #01834f;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px 0 25px 150px;
+}
+form{
+    background-color: white;
+    color: white; 
+    width: 400px;
+    padding-bottom: 20px;
+    position: absolute;
+    right: 10%;
+    top: 16.7%;
+}
+form h1{
+    font-size: 18px;
+}
+form div:first-child{
+    background-color: #046d9d;
+    width: 100%;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form div:last-child{
+    margin-top: 10px;
+}
+form div input{
+    margin: 10px;
+    height: 30px;
+    width: 300px;
+}
+form button{
+    width: 150px;
+    height: 40px;
+    background-color: #046d9d;
+    color: white;
+    border: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+form span a{
+    margin: 30px;
+    color:#08587c;
+    font-weight: 100;
+
+}
+#sec{
+    width: 100%;
+    height: 600px;
+    background: url(../Assets/bcc.png) no-repeat;
+    background-size: cover;
+}
+#sec button{
+    position: absolute;
+    right: 160px;
+    top: 450px;
+    width: 250px;
+    font-size: 18px;
+    height: 50px;
+    color: white;
+    background-color: #065b83;
+    outline: none;
+    border: none;
+}
+
+
+@media only screen and (max-width: 1290px){
+    #frm{
+
+    }
+}
+@media only screen and (max-width: 1070px){
+    nav{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .green{
+        display: none;
+    }
+}
+@media only screen and (max-width: 520px){
+    #frm{
+        position: fixed;
+        width: 350px;
+        left: 5px;
+        z-index: 2;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #lrn{
+        position: relative;
+        left: 50px;
+        z-index: 1;
+    }
+    #bottomUl,#topUl{
+        display: none;
+    }
+    
+}
